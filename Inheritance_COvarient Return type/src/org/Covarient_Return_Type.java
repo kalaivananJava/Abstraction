@@ -28,6 +28,7 @@ public class Covarient_Return_Type {
 
 }
 	
-
+//As you can see in the above example, the return type of the get() method of A class is A but the return type of the get() method of B class is B.
+	//Both methods have different return type but it is method overriding. This is known as covariant return type.
 
 }
