@@ -17,6 +17,11 @@ class Initializer {
 	      //Instance Initializer block..... it seems that instance initializer block is firstly invoked but NO. 
 	   //Instance intializer block is invoked at the time of object creation_of the particular class. The java compiler copies the 
 	   //instance initializer block in the constructor after the first statement super(). So firstly, constructor is invoked.
+	 /*
+  super()
+  instance_initializer block
+  then further statements
+  */
 	    {
 	    	System.out.println("Instance Initializer Block.....");
 	    }
