@@ -23,13 +23,16 @@ public class prac {
 
 	public static void main(String[] args) {
 		prac obPrac = new prac();
-		obPrac.display();
+		obPrac.display();//Main display().......
+
+Overridden static method in Child Class in Java
+display() method of the parent class.
 		ParentClass pc = new ParentClass();
-		pc.display();
+		pc.display();//display() method of the parent class.
 		ChildClass cc = new ChildClass();
-		cc.display();
+		cc.display();//Overridden static method in Child Class in Java
 		ParentClass pcc = new ChildClass();
-		pcc.display();
+		pcc.display();//Overridden static method in Child Class in Java
          byte a=10,b=20;
          byte c=(byte) (a+b);
          
